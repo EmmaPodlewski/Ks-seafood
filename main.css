@@ -43,6 +43,13 @@ a:visited {
   text-shadow: 0.5px 0.5px 0.5px #000000;
 }
 
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
 .jumbotron h2 {
   font-size: 140px;
   font-weight: 550;
