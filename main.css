@@ -1,0 +1,76 @@
+header {
+  padding: 20px 0;
+}
+
+header h1 {
+  font-weight: 200;
+  font-size: 26px;
+}
+
+header .row {
+  display: flex;
+  align-item: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('http://www.bahamasvacationhomes.com/assets/Spanish%20Wells%20Bahamas%20lobster%20boat.jpg');
+  background-size: cover;
+  height: 500px;
+  text-shadow: 0.5px 0.5px 0.5px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 140px;
+  font-weight: 550;
+  color: #000066;
+  font-family: 'Roboto';
+}
+
+.jumbotron h3 {
+  font-weight: 500;
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: black;
+}
+
+figure img {
+  width: 100%;
+}
+
+.col-sm-6 {
+  padding: 0px;
+  margin: 0px;
+}
+
+#Contact {
+  background-color: #f0f0f5;
+  margin-top: 30px;
+}
+
+#Contact p {
+  padding: 0px;
+  margin: 0px;
+}
