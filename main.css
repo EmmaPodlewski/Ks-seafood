@@ -38,6 +38,7 @@ a:visited {
   align-items: center;
   background-image: url('http://www.bahamasvacationhomes.com/assets/Spanish%20Wells%20Bahamas%20lobster%20boat.jpg');
   background-size: cover;
+  background-position: center;
   height: 500px;
   text-shadow: 0.5px 0.5px 0.5px #000000;
 }
